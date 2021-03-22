@@ -225,8 +225,8 @@
 
 .projectDot-container {
     position: fixed;
-    height: 90px;
-    left: 50%;
+    height: 30px;
+    left: 49%;
     bottom: 0;
 }
 
@@ -234,7 +234,7 @@
     position: fixed;
     height: 60px;
     bottom: 0;
-    background-color: #C0C0C0;
+    background-color: #fff;
     width: 100%;
 }
 
