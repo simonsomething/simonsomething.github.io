@@ -69,7 +69,10 @@
     font-size: 3vw;
     left: 0;
     right: 0;
-    text-shadow: 1px 0 #7f7f7f;
+}
+
+.shadow {
+    text-shadow: 0.5px 0 #7f7f7f;
 }
 
 #mara-feature {
