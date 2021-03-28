@@ -33,22 +33,22 @@
     display: table;
 }
 
-.californian { font-family: 'Californian FB'; }
-.roboto { font-family: 'Roboto'; }
+.californian { font-family: 'Californian FB', cursive; }
+.roboto { font-family: 'Roboto'; color: #434343; }
 
 .text-center { text-align: center; }
 .left-aligned { text-align: left; }
 .right-aligned { text-align: right; }
 
 #header { margin-top: 30px; }
-#header h1 { font-size: 4vw; }
+#header h1 { font-size: 4vw; color: #434343; }
 /*#header h1 { font-size: 77px; }*/
 #header p { 
     font-size: 1.3vw;
 /*    font-size: 25px;*/
     letter-spacing: 0.48vw;
     text-transform: uppercase;
-    color: #7f7f7f;
+    color: #C0C0C0;
 }
 
 .spacing-25 { height: 25px; }
@@ -56,7 +56,6 @@
 
 
 .feature {
-    background-color: #cccccc;
     width: 100%;
     padding-bottom: 100%;
     position: relative;
@@ -65,14 +64,14 @@
 
 .feature h2 {
     position: absolute;
-    color: black;
+    color: #C0C0C0;
     font-size: 3vw;
     left: 0;
     right: 0;
 }
 
 .shadow {
-    text-shadow: 0.5px 0 #7f7f7f;
+    /*text-shadow: 0.5px 0 #7f7f7f;*/
 }
 
 #mara-feature {
@@ -97,19 +96,19 @@
 }
 
 .nav a { 
-    color: #000000;
+    color: #434343;
     text-decoration: none;
     border: 5px solid #FFFFFF; 
 }
 
 .nav a:hover {
-    background-color: #C0C0C0;
-    border: 5px solid #C0C0C0;
+    background-color: #d9d9d9;
+    border: 5px solid #d9d9d9;
 }
 
 #active {
-    background-color: #C0C0C0;
-    border: 5px solid #C0C0C0;
+    background-color: #d9d9d9;
+    border: 5px solid #d9d9d9;
 }
 
 #mara {
@@ -121,7 +120,7 @@
 }
 
 #resume-link {
-    color: #000000;
+    color: #434343;
 /*    font-size: 0.84vw;*/
     font-size: 16px;
     text-decoration: none;
@@ -185,7 +184,7 @@
     font-size: 25px;
     user-select: none;
     text-decoration: none;
-    color: #000000;
+    color: #434343;
 }
 
 .swapper-left {
@@ -197,7 +196,7 @@
     font-size: 25px;
     user-select: none;
     text-decoration: none;
-    color: #000000;
+    color: #434343;
 }
 
 .prev:hover, .next:hover {
