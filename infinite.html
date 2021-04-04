@@ -7,8 +7,12 @@
     <title>Simon Almkvist - Game Design Portfolio</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="css/1200.css">
     <script src="js/slideshow.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -28,9 +32,9 @@
         </div>
     </div>
     
-    <div class="row spacing-50"></div>
+    <div class="row spacing-50 responsiveHide"></div>
 
-    <div class="row">
+    <div class="row responsiveHide">
         <div class="col-2">
             <a class="swapper-left" href="mara">&#10094;</a>
         </div>
@@ -49,7 +53,32 @@
         </div>
     </div>
     
-    <div class="row projectDot-container">
+    <div class="row responsiveShow">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="slides" style="display: block">
+                <video controls autoplay muted>
+                    <source src="files/infinite_experiment_demo.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    
+    <div class="row responsiveShow">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="roboto body-text">
+                <p>Infinite Experiment is a passion project I work on during my spare time. It’s a hypercasual one-button infinite runner inspired by the likes of Flappy Bird. You control a rotating ship and move forward in the direction the ship is facing when you tap the screen, while dodging obstacles along the way.
+                <br><br>
+                My goal with this game is to be a part of a project from beginning to end, and working on a project like this lets me experience all aspects of game development. In the video here you can see the current iteration of the game.
+                </p>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    
+    <div class="row projectDot-container responsiveHide">
         <a href="mara"><span class="projectDot"></span></a>
         <a href="infinite"><span class="projectDot activeProjectDot"></span></a>
     </div>

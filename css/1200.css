@@ -1,0 +1,15 @@
+@media (max-width: 1200px) {
+    
+    /* General setup */
+    
+    .responsiveShow {
+        display:inline;
+    }
+    
+    .responsiveHide {
+        display: none;
+    }
+    
+    #header h1 { font-size: 7vw; }
+    #header p { font-size: 2.7vw; }
+} 

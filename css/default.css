@@ -33,8 +33,8 @@
     display: table;
 }
 
-.californian { font-family: 'Californian FB', cursive; }
-.roboto { font-family: 'Roboto'; color: #434343; }
+.californian { font-family: 'Ibarra Real Nova', serif; font-weight: 400; }
+.roboto { font-family: 'Roboto', sans-serif; color: #434343; }
 
 .text-center { text-align: center; }
 .left-aligned { text-align: left; }
@@ -46,7 +46,7 @@
 #header p { 
     font-size: 1.3vw;
 /*    font-size: 25px;*/
-    letter-spacing: 0.48vw;
+    letter-spacing: 0.4vw;
     text-transform: uppercase;
     color: #C0C0C0;
 }
@@ -168,6 +168,7 @@
     transition: 0.4s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    color: #434343;
 }
 
 .next {
@@ -268,4 +269,16 @@ video {
     width: 100%;
     height: 100%;
     outline: none;
+}
+
+.inverseColor {
+    color: #8e7134;
+}
+
+.responsiveShow {
+    display: none;
+}
+
+.responsiveHide {
+    display: block;
 }

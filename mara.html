@@ -7,9 +7,12 @@
     <title>Simon Almkvist - Game Design Portfolio</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/1200.css">
     <script src="js/slideshow.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -29,9 +32,9 @@
         </div>
     </div>
     
-    <div class="row spacing-50"></div>
+    <div class="row spacing-50 responsiveHide"></div>
 
-    <div class="row">
+    <div class="row responsiveHide">
         <div class="col-2"></div>
         <div class="col-4">
             <div class="slides-container">
@@ -86,7 +89,65 @@
         </div>
     </div>
     
-    <div class="row projectDot-container">
+    <div class="row responsiveShow">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="slides-container">
+                <div class="slides" style="display: block">
+                    <a href="files/mara_resized/mara_finished_01.png" target="_blank"><img src="files/mara_resized/mara_finished_01.png" style="width: 100%"></a>
+                    <!--<div class="text">Caption text</div> -->
+                </div>
+
+                <div class="slides">
+                    <a href="files/mara_resized/mara_finished_02.png" target="_blank"><img src="files/mara_resized/mara_finished_02.png" style="width: 100%"></a>
+                    <!--<div class="text">Caption text</div> -->
+                </div>
+
+                <div class="slides">
+                    <a href="files/mara_resized/mara_sketch_01.png" target="_blank"><img src="files/mara_resized/mara_sketch_01.png" style="width: 100%"></a>
+                    <!--<div class="text">Caption text</div> -->
+                </div>
+
+                <div class="slides">
+                    <a href="files/mara_resized/mara_sketch_02.png" target="_blank"><img src="files/mara_resized/mara_sketch_02.png" style="width: 100%"></a>
+                    <!--<div class="text">Caption text</div> -->
+                </div>
+
+                <div class="slides">
+                    <a href="files/mara_resized/mara_comparison_01.png" target="_blank"><img src="files/mara_resized/mara_comparison_01.png" style="width: 100%"></a>
+                    <!--<div class="text">Caption text</div> -->
+                </div>
+
+                <a class="prev" onClick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            
+            <br>
+            
+            <div style="text-align: center">
+                <span class="dot active" onClick="currentSlide(1)"></span>
+                <span class="dot" onClick="currentSlide(2)"></span>
+                <span class="dot" onClick="currentSlide(3)"></span>
+                <span class="dot" onClick="currentSlide(4)"></span>
+                <span class="dot" onClick="currentSlide(5)"></span>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    
+    <div class="row responsiveShow">
+        <div class="col-2"></div>
+        <div class="col-8 roboto body-text">
+            <p>Mara was a two month long university project made with a group of 14 other students from different game development disciplines. Mara is a nightmarish Soulslike with a unique health system - <i>Insanity</i>. Getting hit by enemies increases one's <i>Insanity</i>, which leaves the player character more powerful, but also makes them more volatile than before.
+            <br><br>
+            I spent most of my time during this project creating levels and brainstorming ideas for the game’s health system. I was also in charge of writing the game design document. I wanted to create eerie experiences to go along with the theme of the game, and to achieve this I explored level design concepts like spatial empathy, as well as researched how emotions are developed through architecture.
+            <br><br>
+            A fascinating challenge I had to overcome in this project was creating mechanical penalties that were still fun to play with. Debuffs were a big part of the game through the <i>Insanity</i> system, but a lot of “conventional” debuffs would have simply made the player feel too penalized, so I had to find a way around that by creating debuffs that didn’t influence the gameplay experience negatively.</p>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    
+    <div class="row projectDot-container responsiveHide">
         <a href="mara"><span class="projectDot activeProjectDot"></span></a>
         <a href="infinite"><span class="projectDot"></span></a>
     </div>
