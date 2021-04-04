@@ -143,12 +143,12 @@
 }
 
 .slides-container {
-    max-width: 1000px;
+/*    max-width: 1000px;*/
     position: relative;
     margin: auto;
 }
 
-.slides {
+.slides, .slides-responsive {
     display: none;
 }
 
@@ -211,7 +211,7 @@
     text-align: center;
 }
 
-.dot, .projectDot {
+.dot, .dot-responsive, .projectDot {
     cursor: pointer;
     height: 10px;
     width: 10px;
@@ -222,7 +222,7 @@
     transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover, .activeProjectDot {
+.active, .dot:hover, .dot-responsive:hover,.activeProjectDot {
     background-color: #717171;
 }
 
